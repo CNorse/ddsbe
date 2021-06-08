@@ -9,7 +9,7 @@
     protected $table = 'tbluser';
     // column sa table
     protected $fillable = [
-        'username', 'password', 'gender'
+        'username', 'password', 'gender', 'userid', 'jobid',
     ];
 
     public $timestamps = false;
